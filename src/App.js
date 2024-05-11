@@ -2,7 +2,7 @@ import React from 'react';
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
 import rootReducer from './reducers';
-import AddTask from './components/Addtask';
+import AddTask from './components/AddTask';
 import ListTask from './components/TaskList';
 import './App.css';
 

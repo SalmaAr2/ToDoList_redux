@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
-import { editTask, toggleTask, deleteTask } from '../actions/taskActions';
+import { editTask, toggleTask, deleteTask  } from '../actions/taskActions';
 
 
 const Task = ({ task }) => {
